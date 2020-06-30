@@ -2,10 +2,38 @@
     box-sizing: border-box;
 }
 
-.mic-apple-view {
+.mic-apple-container {
     background-image: url("/src/your_verse_hero.jpg");
     background-position: 50% 100%;
     width: 1400px;
     height: 700px;
     margin: -10px auto;
+}
+
+.mic-apple-view {
+    width: 890px;
+    margin: 0px auto;
+}
+
+.mic-apple-nav-bar {
+    padding-top: 60px;
+    justify-content: space-evenly;
+}
+
+.mic-apple-disp {
+    display: inline-block;
+}
+
+.mic-apple-view-list {
+    border: 1px solid gray;
+    width: 40px;
+    margin-right: -4.5px;
+    padding: 5px 45px;
+    font-size: 0.8rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.mic-apple-view-list:hover {
+    background-color: black;
 }
