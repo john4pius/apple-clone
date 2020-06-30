@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+.mic-apple-view {
+    background-image: url("/src/your_verse_hero.jpg");
+    background-position: 50% 100%;
+    width: 1400px;
+    height: 700px;
+    margin: -10px auto;
+}
