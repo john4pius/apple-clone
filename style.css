@@ -1,13 +1,16 @@
 * {
     box-sizing: border-box;
+}   
+
+.mic-apple-main {
+    text-align: center;
 }
 
 .mic-apple-container {
-    background-image: url("/src/your_verse_hero.jpg");
+    background-image: url(src/your_verse_hero.jpg);
     background-position: 50% 100%;
     width: 1400px;
     height: 700px;
-    margin: -10px auto;
 }
 
 .mic-apple-view {
@@ -37,3 +40,70 @@
 .mic-apple-view-list:hover {
     background-color: black;
 }
+
+.mic-apple-nav-bar > ul {
+    list-style-type: none;
+    background-image: linear-gradient(#7c7c7c, #707070, #5e5e5e, #5d5d5d);
+}
+
+.mic-apple-nav-bar > ul > li {
+    display: inline;
+}
+
+#applelogo {
+    width: 15px;
+    height: 15px;
+}
+
+.imagesgrid {
+    width:1400px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 5px;
+}
+
+#img1 {
+    grid-column-start: 1;
+    width: 100%;
+}
+
+#img2 {
+    grid-column-start: 2;
+    width: 100%;
+}
+
+#img3 {
+    grid-column-start: 3;
+    width: 100%;
+}
+
+#img4 {
+    grid-column-start: 4;
+    width: 100%;
+}
+
+#footer1 {
+    padding: 50px;
+}
+
+#footerflex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#links {
+    display: inline;
+}
+
+.linksstyle {
+    color: #08c;
+    text-decoration: none;
+}
+
+.linksstyle:hover {
+    color: #08c;
+    text-decoration: underline;
+}
+
+
+
