@@ -13,25 +13,25 @@
 </head>
 
 <body>
-    <div class="mic-apple-main">
-        <div class="mic-apple-container">
-            <div class="mic-apple-view">
-                <nav class="mic-apple-nav-bar">
-                    <!-- <ul class="navbarcontainer"> -->
-
-                    <div class="mic-apple-disp">
-                        <a class="mic-apple-view-list" href=""><img class="mic-apple-disp" id="applelogo" src="src/logo.png"></a>
-                    </div>
-                    <div class="mic-apple-disp"><a class="mic-apple-view-list" href="">Store</a></div>
-                    <div class="mic-apple-disp"><a class="mic-apple-view-list" href="">Mac</a></div>
-                    <div class="mic-apple-disp"><a class="mic-apple-view-list" href="">iPod</a></div>
-                    <div class="mic-apple-disp"><a class="mic-apple-view-list" href="">iPad</a></div>
-                    <div class="mic-apple-disp"><a class="mic-apple-view-list" href="">iTunes</a></div>
-                    <div class="mic-apple-disp"><a class="mic-apple-view-list" href="">Support</a></div>
-                    <div class="mic-apple-disp"><a class="mic-apple-view-list" href="">Search</a></div>
-                    </u>
-                </nav>
-            </div>
+    <div class="mic-apple-container">
+        <div class="mic-apple-view">
+            <nav class="mic-apple-nav-bar">
+                <div class="mic-apple-disp mic-logo"></div>
+                <div class="mic-apple-disp"><a class="mic-apple-view-list" href="">Store</a></div>
+                <div class="mic-apple-disp"><a class="mic-apple-view-list" href="">Mac</a></div>
+                <div class="mic-apple-disp"><a class="mic-apple-view-list" href="">iPod</a></div>
+                <div class="mic-apple-disp"><a class="mic-apple-view-list" href="">iPad</a></div>
+                <div class="mic-apple-disp"><a class="mic-apple-view-list" href="">iTunes</a></div>
+                <div class="mic-apple-disp"><a class="mic-apple-view-list" href="">Support</a></div>
+                <div class="mic-apple-disp" id="search-form">
+                    <form action="" method="post">
+                        <button class="mic-apple-search-btn">
+                                <!-- <img src="src/search-icon-png-2.png" alt=""> -->
+                                <input type="text" name="search">
+                            </button>
+                    </form>
+                </div>
+            </nav>
             <div class="center">
                 <h1><a class="whitelinks" href="https://web.archive.org/web/20140228175622/http://www.apple.com/your-verse/#video-your-verse">What will your verse be?</a></h1>
                 <h2><a class="whitelinks" href="https://web.archive.org/web/20140228175622/http://www.apple.com/your-verse/#video-your-verse">Everyone has something to share. See how people are using <br> iPad in their unique ways to add the world's story.</a></h2>
@@ -39,37 +39,38 @@
 
             </div>
         </div>
-    </div>
-    <div class="imagesgrid-container">
-        <div class="imagesgrid">
-            <img id="img1" src="src/promo_iphone5s_2x.jpg" alt="5s">
-            <img id="img2" src="src/promo_iphone5c_2x.jpg" alt="5c">
-            <img id="img3" src="src/promo_30_years_2x.jpg" alt="30 years">
-            <img id="img4" src="src/promo_supplier_responsibility_2x.jpg" alt="responsibility">
-        </div>
-    </div>
-    <div class="footer-container">
-        <div id="footer1">
-            <div id="footerflex" class="footer-text">
-                <div class="footer-left">
-                    <p>Shop -the <a class="linksstyle" href="">Apple Online Store</a> (1-800-MY-APPLE), visit an <a class="linksstyle" href="">Apple Retail Store</a>, or find a
-                        <a class="linksstyle" href="">reseller.</a></p>
-                </div>
-                <nav id="links" class="footer-right">
-                    <a class="linksstyle">Site Map</a> |
-                    <a class="linksstyle">Hot News</a> |
-                    <a class="linksstyle">RSS Feed</a> |
-                    <a class="linksstyle">Media Info</a> |
-                    <a class="linksstyle">Environment</a> |
-                    <a class="linksstyle">Job Opportunities</a> |
-                    <a class="linksstyle">Contact Us</a> |
-                    <a class="linksstyle"><img class="links-image" href="" alt="home" src="src/usa_2x.png"></a>
-                </nav>
+
+        <main class="imagesgrid-container">
+            <div class="imagesgrid">
+                <img id="img1" src="src/promo_iphone5s_2x.jpg" alt="5s">
+                <img id="img2" src="src/promo_iphone5c_2x.jpg" alt="5c">
+                <img id="img3" src="src/promo_30_years_2x.jpg" alt="30 years">
+                <img id="img4" src="src/promo_supplier_responsibility_2x.jpg" alt="responsibility">
             </div>
-        </div>
-        <div class="footer-text">
+        </main>
+        <aside class="footer-container">
+            <div id="footer1">
+                <div id="footerflex" class="footer-text">
+                    <div class="footer-left">
+                        <p>Shop -the <a class="linksstyle" href="">Apple Online Store</a> (1-800-MY-APPLE), visit an <a class="linksstyle" href="">Apple Retail Store</a>, or find a
+                            <a class="linksstyle" href="">reseller.</a></p>
+                    </div>
+                    <nav id="links" class="footer-right">
+                        <a class="linksstyle">Site Map</a> |
+                        <a class="linksstyle">Hot News</a> |
+                        <a class="linksstyle">RSS Feed</a> |
+                        <a class="linksstyle">Media Info</a> |
+                        <a class="linksstyle">Environment</a> |
+                        <a class="linksstyle">Job Opportunities</a> |
+                        <a class="linksstyle">Contact Us</a> |
+                        <a class="linksstyle"><img class="links-image" href="" alt="home" src="src/usa_2x.png"></a>
+                    </nav>
+                </div>
+            </div>
+        </aside>
+        <footer class="footer-text">
             <p>Copyright © 2014 Apple Inc. All rights reserved. <a class="linksstyle" href="">Terms of Use</a><a class="linksstyle">Privacy Policy</a></p>
-        </div>
+        </footer>
     </div>
 
 </body>

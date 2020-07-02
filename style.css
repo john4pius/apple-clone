@@ -1,58 +1,98 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.mic-apple-main {
-    text-align: center;
+body {
+    background-color: #eee;
+    color: #333;
+    width: 100%;
+    margin: 0;
 }
 
 .mic-apple-container {
     background-image: url(src/your_verse_hero.jpg);
-    background-position: 50% 100%;
-    width: 1400px;
-    height: 700px;
-    margin: 0 auto;
+    background-position: 0% 85%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
 }
 
 .mic-apple-view {
-    width: 80%;
-    margin: 0px auto;
-    text-align: center;
+    display: block;
+    width: 100%;
+    height: 510px;
+    background-color: transparent;
+    justify-content: center;
 }
 
 .mic-apple-nav-bar {
-    padding-top: 60px;
-    justify-content: space-evenly;
+    position: relative;
+    top: 80px;
+    height: 35px;
+    width: 75%;
+    border-radius: 4px;
+    display: flex;
+    margin: 3px auto;
+    background: rgb(128, 128, 128);
+    background: linear-gradient(rgb(128, 128, 128) 48%, rgb(120, 120, 120) 50%)
 }
 
-.navbarcontainer {
-    border-radius: 10px;
-    text-align: center;
+.mic-logo {
+    background-image: url(src/logo.png);
+    background-size: contain;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    cursor: pointer;
 }
 
 .mic-apple-disp {
-    display: inline-block;
+    padding: 6px;
+    width: 120px;
+    margin: 0;
+    text-align: center;
+    border-right: 1px solid rgb(80, 77, 77);
 }
 
-.mic-apple-view-list {
-    border: 1px solid gray;
-    width: 40px;
-    margin-right: -4.5px;
-    margin-left: -4.5px;
-    padding: 5px 45px;
-    font-size: 0.8rem;
+.mic-apple-disp:hover {
+    background-color: rgb(100, 100, 100)
+}
+
+#search-form {
+    width: 20%;
+    height: 35px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.mic-apple-disp a {
     color: #fff;
     text-decoration: none;
-    background-image: linear-gradient(#5d5d5d, #5d5d5d, #7c7c7c, #7c7c7c);
+    width: 100%;
 }
 
-.mic-apple-view-list:hover {
-    background-color: black;
+.mic-apple-search-btn {
+    position: absolute;
+    top: 0;
+    margin-left: -45px;
+    z-index: 1;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
 }
 
-.mic-apple-nav-bar>ul {
-    list-style-type: none;
-    background-image: linear-gradient(#5d5d5d, #5d5d5d, #7c7c7c, #7c7c7c);
+input {
+    border-radius: 15px;
+    height: 20px;
+    padding: 0;
+    background-color: transparent;
+    margin-top: 7px;
+    width: 80%;
+    padding-left: 15px;
+    margin-left: 10px;
 }
 
 .mic-apple-nav-bar>ul>li {
