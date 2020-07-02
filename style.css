@@ -13,10 +13,12 @@ body {
 
 .mic-apple-container {
     background-image: url(src/your_verse_hero.jpg);
-    background-position: 0% 85%;
+    background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: border-box;
+    width: 100%;
+    height: 490px;
 }
 
 .mic-apple-view {
@@ -60,28 +62,35 @@ body {
     background-color: rgb(100, 100, 100)
 }
 
-#search-form {
-    width: 20%;
-    height: 35px;
-    padding: 0;
-    border: none;
-    background-color: transparent;
-}
-
 .mic-apple-disp a {
     color: #fff;
     text-decoration: none;
     width: 100%;
 }
 
-.mic-apple-search-btn {
+#search {
     position: absolute;
-    top: 0;
-    margin-left: -45px;
-    z-index: 1;
-    border: none;
-    cursor: pointer;
-    background-color: transparent;
+    top: 1px;
+}
+
+#search input {
+    text-indent: 2px;
+    position: abosulte;
+    padding: 0px;
+}
+
+#search input:enabled {
+    text-indent: 14px;
+    position: abosulte;
+    padding: 0px;
+    background-color: white;
+}
+
+#search .fa-search {
+    position: absolute;
+    top: 11px;
+    left: 20px;
+    font-size: 12px;
 }
 
 input {
@@ -106,6 +115,11 @@ input {
 
 .center {
     text-align: center;
+}
+
+.titles {
+    position: relative;
+    top: 110px;
 }
 
 h1 {
@@ -144,6 +158,7 @@ h3 {
 .imagesgrid-container {
     width: 1400px;
     margin: 0 auto;
+    width: 100%;
 }
 
 .imagesgrid {
