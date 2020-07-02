@@ -7,13 +7,13 @@
 body {
     background-color: #eee;
     color: #333;
-    width: 75%;
+    width: 100%;
     margin: 0 auto;
 }
 
 .mic-apple-container {
     background-image: url(src/your_verse_hero.jpg);
-    background-position: 0% 90%;
+    background-position: 0% 130%;
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: border-box;
@@ -50,7 +50,7 @@ body {
 
 .mic-apple-disp {
     padding: 6px;
-    width: 120px;
+    width: 150px;
     margin: 0;
     text-align: center;
     border-right: 1px solid rgb(80, 77, 77);
@@ -66,8 +66,15 @@ body {
     width: 100%;
 }
 
+.mic-apple-disp2 {
+    /* padding: 6px; */
+    margin: 0;
+    text-align: center;
+    border-right: 1px solid rgb(80, 77, 77);
+}
+
 #search {
-    position: absolute;
+    position: relative;
     top: 1px;
 }
 
@@ -77,18 +84,19 @@ body {
     padding: 0px;
 }
 
-#search input:enabled {
-    text-indent: 14px;
-    position: abosulte;
+#search input:focus {
+    background: white;
+    width: 200px;
     padding: 0px;
-    background-color: white;
+
 }
 
 #search .fa-search {
     position: absolute;
     top: 11px;
-    left: 20px;
+    left: 30px;
     font-size: 12px;
+    color: white;
 }
 
 input {
@@ -155,20 +163,20 @@ input {
 }
 
 h1 {
+    font-family: "Arial Narrow", Helvetica, sans-serif;
     font-weight: lighter;
-    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 64px;
 }
 
 h2 {
+    font-family: "Arial Narrow", Helvetica, sans-serif;
     font-weight: lighter;
-    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 44px;
 }
 
 h3 {
+    font-family: "Arial Narrow", Helvetica, sans-serif;
     font-weight: lighter;
-    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 24px;
 }
 
@@ -191,7 +199,7 @@ h3 {
     position: relative;
     width: 100%;
     z-index: 1;
-    top: 233px;
+    top: 70px;
 }
 
 .imagesgrid {
@@ -239,7 +247,7 @@ h3 {
     margin: 0 auto;
     padding: 20px 20px;
     position: relative;
-    top: 230px;
+    top: 70px;
 }
 
 #footerflex {
@@ -265,10 +273,11 @@ h3 {
 
 .footer-text {
     position: relative;
-    top: 230px;
+    top: 65px;
     font-size: 0.65rem;
     margin: 0 auto;
     width: 77%;
+    padding-bottom: 20px;
 }
 
 .linksstyle {
