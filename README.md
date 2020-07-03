@@ -1,10 +1,10 @@
-# CSS3 : Project: Positioning and Floating Elements (Microverse Collaborative Project)
+# CSS3 : Project: Building with Backgrounds and Gradients (Microverse Collaborative Project)
 
 
-> This project centers on the use of plain HTML and CSS to create a form.
-> A reproduction of the New York Times Article page was used to complete the project
+> This project centers on the use of HTML and CSS to create gradients.
+> A reproduction of the old apple.com page was used to complete the project
 
-![screenshot](./src/screencapture-file-home-pius-j-Desktop-new-york-times-article.png)
+![screenshot](./src/microverse4.jpeg)
 
 ## Built With
 
@@ -16,6 +16,7 @@
 #### Prerequisites
 - Browser
 - Internet
+
 ## Authors
 
 👤 **John Pius**
