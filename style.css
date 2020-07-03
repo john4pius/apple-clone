@@ -36,7 +36,7 @@ body {
   display: flex;
   margin: 3px auto;
   background: rgb(128, 128, 128);
-  background: linear-gradient(rgb(128, 128, 128) 48%, rgb(120, 120, 120) 50%)
+  background: linear-gradient(rgb(128, 128, 128) 48%, rgb(120, 120, 120) 50%);
 }
 
 .mic-logo {
@@ -57,7 +57,7 @@ body {
 }
 
 .mic-apple-disp:hover {
-  background-color: rgb(100, 100, 100)
+  background-color: rgb(100, 100, 100);
 }
 
 .mic-apple-disp a {
