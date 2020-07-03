@@ -4,7 +4,7 @@
 > This project centers on the use of HTML and CSS to create gradients.
 > A reproduction of the old apple.com page was used to complete the project
 
-![screenshot](./src/microverse4.jpeg)
+![screenshot](https://raw.githubusercontent.com/john4pius/apple-clone/development/src/Microverse4.jpg)
 
 ## Built With
 
