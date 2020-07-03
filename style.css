@@ -67,7 +67,6 @@ body {
 }
 
 .mic-apple-disp2 {
-    /* padding: 6px; */
     margin: 0;
     text-align: center;
     border-right: 1px solid rgb(80, 77, 77);
@@ -88,7 +87,6 @@ body {
     background: white;
     width: 200px;
     padding: 0px;
-
 }
 
 #search .fa-search {
@@ -261,12 +259,6 @@ h3 {
     list-style-type: none;
 }
 
-
-/* 
-.text-container {
-    margin-left: 5px;
-} */
-
 .links-image {
     height: 15px;
 }
@@ -276,7 +268,7 @@ h3 {
     top: 65px;
     font-size: 0.65rem;
     margin: 0 auto;
-    width: 77%;
+    width: 78%;
     padding-bottom: 20px;
 }
 
