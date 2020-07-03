@@ -1,283 +1,283 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #eee;
-    color: #333;
-    width: 100%;
-    margin: 0 auto;
+  background-color: #eee;
+  color: #333;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .mic-apple-container {
-    background-image: url(src/your_verse_hero.jpg);
-    background-position: 0% 130%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: border-box;
+  background-image: url(src/your_verse_hero.jpg);
+  background-position: 0% 130%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
 }
 
 .mic-apple-view {
-    display: block;
-    width: 100%;
-    height: 510px;
-    background-color: transparent;
-    justify-content: center;
+  display: block;
+  width: 100%;
+  height: 510px;
+  background-color: transparent;
+  justify-content: center;
 }
 
 .mic-apple-nav-bar {
-    position: relative;
-    top: 80px;
-    height: 35px;
-    width: 75%;
-    border-radius: 4px;
-    display: flex;
-    margin: 3px auto;
-    background: rgb(128, 128, 128);
-    background: linear-gradient(rgb(128, 128, 128) 48%, rgb(120, 120, 120) 50%)
+  position: relative;
+  top: 80px;
+  height: 35px;
+  width: 75%;
+  border-radius: 4px;
+  display: flex;
+  margin: 3px auto;
+  background: rgb(128, 128, 128);
+  background: linear-gradient(rgb(128, 128, 128) 48%, rgb(120, 120, 120) 50%)
 }
 
 .mic-logo {
-    background-image: url(src/logo.png);
-    background-size: contain;
-    background-position: 50% 0%;
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    cursor: pointer;
+  background-image: url(src/logo.png);
+  background-size: contain;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  cursor: pointer;
 }
 
 .mic-apple-disp {
-    padding: 6px;
-    width: 150px;
-    margin: 0;
-    text-align: center;
-    border-right: 1px solid rgb(80, 77, 77);
+  padding: 6px;
+  width: 150px;
+  margin: 0;
+  text-align: center;
+  border-right: 1px solid rgb(80, 77, 77);
 }
 
 .mic-apple-disp:hover {
-    background-color: rgb(100, 100, 100)
+  background-color: rgb(100, 100, 100)
 }
 
 .mic-apple-disp a {
-    color: #fff;
-    text-decoration: none;
-    width: 100%;
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
 }
 
 .mic-apple-disp2 {
-    margin: 0;
-    text-align: center;
-    border-right: 1px solid rgb(80, 77, 77);
+  margin: 0;
+  text-align: center;
+  border-right: 1px solid rgb(80, 77, 77);
 }
 
 #search {
-    position: relative;
-    top: 1px;
-}
-
-#search input {
-    text-indent: 2px;
-    position: abosulte;
-    padding: 0px;
-}
-
-#search input:focus {
-    background: white;
-    width: 200px;
-    padding: 0px;
-}
-
-#search .fa-search {
-    position: absolute;
-    top: 11px;
-    left: 30px;
-    font-size: 12px;
-    color: white;
+  position: relative;
+  top: 1px;
 }
 
 input {
-    border-radius: 15px;
-    height: 20px;
-    padding: 0;
-    background-color: transparent;
-    margin-top: 7px;
-    width: 80%;
-    padding-left: 15px;
-    margin-left: 10px;
+  border-radius: 15px;
+  height: 20px;
+  padding: 0;
+  background-color: transparent;
+  margin-top: 7px;
+  width: 80%;
+  padding-left: 15px;
+  margin-left: 10px;
 }
 
-.mic-apple-nav-bar>ul>li {
-    display: inline;
+#search input {
+  text-indent: 2px;
+  position: abosulte;
+  padding: 0;
+}
+
+#search input:focus {
+  background: white;
+  width: 200px;
+  padding: 0;
+}
+
+#search .fa-search {
+  position: absolute;
+  top: 11px;
+  left: 30px;
+  font-size: 12px;
+  color: white;
+}
+
+.mic-apple-nav-bar > ul > li {
+  display: inline;
 }
 
 #applelogo {
-    width: 15px;
-    height: 15px;
+  width: 15px;
+  height: 15px;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .titles {
-    position: relative;
-    top: 110px;
+  position: relative;
+  top: 110px;
 }
 
 .mic-img1,
 .mic-img2,
 .mic-img3,
 .mic-img4 {
-    height: 200px;
-    width: 25%;
-    float: left;
-    margin-top: 0;
+  height: 200px;
+  width: 25%;
+  float: left;
+  margin-top: 0;
 }
 
 .mic-img1 {
-    background-image: url(src/promo_iphone5s_2x.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(src/promo_iphone5s_2x.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .mic-img2 {
-    background-image: url(src/promo_iphone5c_2x.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(src/promo_iphone5c_2x.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .mic-img3 {
-    background-image: url(src/promo_30_years_2x.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(src/promo_30_years_2x.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .mic-img4 {
-    background-image: url(src/promo_supplier_responsibility_2x.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(src/promo_supplier_responsibility_2x.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
-    font-family: "Arial Narrow", Helvetica, sans-serif;
-    font-weight: lighter;
-    font-size: 64px;
+  font-family: "Arial Narrow", Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 64px;
 }
 
 h2 {
-    font-family: "Arial Narrow", Helvetica, sans-serif;
-    font-weight: lighter;
-    font-size: 44px;
+  font-family: "Arial Narrow", Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 44px;
 }
 
 h3 {
-    font-family: "Arial Narrow", Helvetica, sans-serif;
-    font-weight: lighter;
-    font-size: 24px;
+  font-family: "Arial Narrow", Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 24px;
 }
 
 .whitelinks {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .whitelinks2 {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .whitelinks2:hover {
-    color: white;
-    text-decoration: underline;
+  color: white;
+  text-decoration: underline;
 }
 
 .imagesgrid-container {
-    position: relative;
-    width: 100%;
-    z-index: 1;
-    top: 70px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  top: 70px;
 }
 
 .imagesgrid {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    margin: 0 auto;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin: 0 auto;
 }
 
 #img1 {
-    grid-column-start: 1;
-    width: 100%;
-    height: 220px;
-    padding-top: 4px;
-    padding-right: 4px;
+  grid-column-start: 1;
+  width: 100%;
+  height: 220px;
+  padding-top: 4px;
+  padding-right: 4px;
 }
 
 #img2 {
-    grid-column-start: 2;
-    width: 100%;
-    height: 220px;
-    padding-top: 4px;
-    padding-right: 4px;
+  grid-column-start: 2;
+  width: 100%;
+  height: 220px;
+  padding-top: 4px;
+  padding-right: 4px;
 }
 
 #img3 {
-    grid-column-start: 3;
-    width: 100%;
-    height: 220px;
-    padding-top: 4px;
-    padding-right: 4px;
+  grid-column-start: 3;
+  width: 100%;
+  height: 220px;
+  padding-top: 4px;
+  padding-right: 4px;
 }
 
 #img4 {
-    grid-column-start: 4;
-    width: 100%;
-    height: 220px;
-    padding-top: 4px;
+  grid-column-start: 4;
+  width: 100%;
+  height: 220px;
+  padding-top: 4px;
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.65rem;
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px 20px;
-    position: relative;
-    top: 70px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.65rem;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 20px;
+  position: relative;
+  top: 70px;
 }
 
 #footerflex {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-right {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
 }
 
 .links-image {
-    height: 15px;
+  height: 15px;
 }
 
 .footer-text {
-    position: relative;
-    top: 65px;
-    font-size: 0.65rem;
-    margin: 0 auto;
-    width: 78%;
-    padding-bottom: 20px;
+  position: relative;
+  top: 65px;
+  font-size: 0.65rem;
+  margin: 0 auto;
+  width: 78%;
+  padding-bottom: 20px;
 }
 
 .linksstyle {
-    color: #08c;
-    text-decoration: none;
+  color: #08c;
+  text-decoration: none;
 }
 
 .linksstyle:hover {
-    color: #08c;
-    text-decoration: underline;
+  color: #08c;
+  text-decoration: underline;
 }
