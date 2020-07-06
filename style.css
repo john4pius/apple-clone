@@ -74,7 +74,7 @@ body {
   border-right: 1px solid rgb(80, 77, 77);
 }
 
-#search {
+.search {
   position: relative;
   top: 1px;
 }
@@ -90,18 +90,18 @@ input {
   margin-left: 10px;
 }
 
-#search input {
+.search input {
   text-indent: 2px;
   padding: 0;
 }
 
-#search input:focus {
+.search input:focus {
   background: white;
   width: 200px;
   padding: 0;
 }
 
-#search .fa-search {
+.search .fa-search {
   position: absolute;
   top: 11px;
   left: 30px;
@@ -111,11 +111,6 @@ input {
 
 .mic-apple-nav-bar > ul > li {
   display: inline;
-}
-
-#applelogo {
-  width: 15px;
-  height: 15px;
 }
 
 .center {
@@ -207,37 +202,6 @@ h3 {
   margin: 0 auto;
 }
 
-#img1 {
-  grid-column-start: 1;
-  width: 100%;
-  height: 220px;
-  padding-top: 4px;
-  padding-right: 4px;
-}
-
-#img2 {
-  grid-column-start: 2;
-  width: 100%;
-  height: 220px;
-  padding-top: 4px;
-  padding-right: 4px;
-}
-
-#img3 {
-  grid-column-start: 3;
-  width: 100%;
-  height: 220px;
-  padding-top: 4px;
-  padding-right: 4px;
-}
-
-#img4 {
-  grid-column-start: 4;
-  width: 100%;
-  height: 220px;
-  padding-top: 4px;
-}
-
 .footer-container {
   display: flex;
   justify-content: space-between;
@@ -249,7 +213,7 @@ h3 {
   top: 70px;
 }
 
-#footerflex {
+.footerflex {
   display: flex;
   justify-content: space-between;
 }
@@ -258,6 +222,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
+  padding: 1rem 0 0 0;
 }
 
 .links-image {
